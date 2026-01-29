@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Riley Childs | Web Developer & Snowboarder</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <h1>Riley Childs</h1>
-    <nav>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Riley Childs</h1>
+      <h2>Carving Into My Next Web Challenge</h2>
+      <p>Snowboarding my way through code and creativity</p>
+      <a href="#projects" class="cta-button">See My Work</a>
+    </div>
+
+    <!-- Navigation at bottom of hero -->
+    <nav class="hero-nav">
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </nav>
-  </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h2>Carving Into My Next Web Challenge</h2>
-    <p>Snowboarding my way through code and creativity</p>
-    <a href="#projects">See My Work</a>
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">&#x2193;</div>
   </section>
 
   <!-- About Section -->
   <section class="about" id="about">
-    <img src="profile.jpg" alt="Riley Snowboarding">
+    <img src="profile.jpg" alt="Riley Snowboarding" />
     <div class="about-text">
       <h2 class="section-title">About Me</h2>
-      <p>I'm Riley, a web developer with a passion for creating smooth, interactive, and responsive web experiences. When I'm not coding, you'll find me shredding the slopes and chasing adventure. My approach combines creativity, technical skill, and a love for problem-solving.</p>
+      <p>
+        I'm Riley, a web developer with a passion for creating smooth,
+        interactive, and responsive web experiences. When I'm not coding,
+        you'll find me shredding the slopes and chasing adventure. My approach
+        combines creativity, technical skill, and a love for problem-solving.
+      </p>
     </div>
   </section>
 
@@ -41,17 +49,17 @@
     <h2 class="section-title">Projects</h2>
     <div class="projects">
       <div class="project-card">
-        <img src="project1.jpg" alt="Project 1">
+        <img src="project1.jpg" alt="Project 1" />
         <h3>Portfolio Website</h3>
         <p>A single-page, responsive portfolio built with vanilla HTML, CSS, and JavaScript.</p>
       </div>
       <div class="project-card">
-        <img src="project2.jpg" alt="Project 2">
+        <img src="project2.jpg" alt="Project 2" />
         <h3>Blog Platform</h3>
         <p>A full-stack blog platform using Node.js, Express, and MongoDB with a clean UI.</p>
       </div>
       <div class="project-card">
-        <img src="project3.jpg" alt="Project 3">
+        <img src="project3.jpg" alt="Project 3" />
         <h3>Interactive Dashboard</h3>
         <p>An analytics dashboard with dynamic charts and filters built in React.</p>
       </div>
@@ -74,15 +82,11 @@
   </section>
 
   <!-- Contact Section -->
-<section id="contact">
-  <h2 class="section-title">Contact Me</h2>
-  <p>If you’d like to get in touch, click the button below to send me an email:</p>
-  <a href="mailto:childswebdev@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20Riley,%0D%0A%0D%0AI%20would%20like%20to%20connect%20about..." 
-     style="background:#ff9800; color:#fff; padding:12px 30px; border-radius:25px; font-weight:bold; display:inline-block; text-decoration:none;">
-    Email Me
-  </a>
-</section>
-
+  <section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p>If you’d like to get in touch, click the button below to send me an email:</p>
+    <a href="mailto:childswebdev@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20Riley,%0D%0A%0D%0AI%20would%20like%20to%20connect%20about..." class="email-button">Email Me</a>
+  </section>
 
   <!-- Footer -->
   <footer>
