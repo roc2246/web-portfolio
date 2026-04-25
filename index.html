@@ -1,112 +1,144 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Riley Childs | Web Developer & Snowboarder</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="preload" as="image" href="snowboard.jpg">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riley Childs | Web Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preload" as="image" href="snowboard.jpg" />
+  </head>
+  <body>
+    <section class="hero">
+      <div class="overlay"></div>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="overlay"></div>
-
-    <div class="hero-content">
-      <h1>Riley Childs</h1>
-      <h2>Carving Into My Next Web Challenge</h2>
-      <p>Snowboarding through code and creativity</p>
-      <a href="#projects" class="cta-button">See My Work</a>
-    </div>
-
-    <!-- Hero Navigation at bottom -->
-    <nav class="hero-nav">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-    <!-- Scroll indicator -->
-    <div class="scroll-indicator">&#x2193;</div>
-  </section>
-
-  <!-- About Section -->
-  <section class="about" id="about">
-    <div class="about-container">
-      <img src="images/profile.jpg" alt="Riley Snowboarding" />
-      <div class="about-text">
-        <h2 class="section-title">About Me</h2>
+      <div class="hero-content">
+        <h1>Riley Childs</h1>
+        <h2>Web Developer for Small Business Websites & Custom Web Apps</h2>
         <p>
-          I'm Riley, a web developer passionate about smooth, interactive web experiences.
-          When I'm not coding, you'll find me shredding the slopes or chasing adventure.
+          I build WordPress sites, custom backend features, and full-stack web
+          apps for businesses that need practical, user-friendly web solutions.
         </p>
+        <p>
+          I help improve websites, add features like contact and booking
+          systems, and fix issues quickly.
+        </p>
+        <a href="#contact" class="cta-button">Get Help With Your Website</a>
       </div>
-    </div>
-  </section>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2 class="section-title">Projects</h2>
-    <div class="projects">
-      <div class="project-card">
-        <img src="images/project1.png" alt="Ski Lesson App" />
-        <h3>Ski Lesson App</h3>
-        <p>A responsive app for ski and snowboard instructors to manage their lessons</p>
-        <br>
-        <a class="project-link" href="https://ski-lessons-7410677781cb.herokuapp.com/">Website</a>
-        <br>
-        <a class="github-link" href="https://github.com/roc2246/ski-lessons">Github Repository</a>
+      <nav class="hero-nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="scroll-indicator">&#x2193;</div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-container">
+        <img src="images/profile.jpg" alt="Riley snowboarding" />
+        <div class="about-text">
+          <h2 class="section-title">About Me</h2>
+          <p>
+            I'm Riley, a web developer focused on building clean, practical
+            websites and web applications. My background in snowboarding and
+            instruction gives me a strong understanding of service-based
+            businesses, scheduling, and customer-facing tools.
+          </p>
+        </div>
       </div>
-       <div class="project-card">
-        <img src="images/project2.png" alt="Rental Finder App" />
-        <h3>Rental Finder App</h3>
-        <p>An app that scrapes data from various rental websites to help users find the best deals.</p>
-        <br>
-        <a class="project-link" href="https://rental-finder-31396c6563dc.herokuapp.com/">Website</a>
-        <br>
-        <a class="github-link" href="https://github.com/roc2246/rental-finder">Github Repository</a>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects">
+        <div class="project-card">
+          <img src="images/project1.png" alt="Ski Lesson App" />
+          <h3>Ski Lesson App</h3>
+          <p>
+            A web app that helps ski and snowboard instructors manage lessons,
+            scheduling, and assignments more efficiently.
+          </p>
+          <br />
+          <a
+            class="project-link"
+            href="https://ski-lessons-7410677781cb.herokuapp.com/"
+            >Website</a
+          >
+          <br />
+          <a class="github-link" href="https://github.com/roc2246/ski-lessons"
+            >Github Repository</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img src="images/project2.png" alt="Rental Finder App" />
+          <h3>Rental Finder App</h3>
+          <p>
+            A tool that aggregates rental listings from multiple sources to help
+            users quickly find better housing options.
+          </p>
+          <br />
+          <a
+            class="project-link"
+            href="https://rental-finder-31396c6563dc.herokuapp.com/"
+            >Website</a
+          >
+          <br />
+          <a class="github-link" href="https://github.com/roc2246/rental-finder"
+            >Github Repository</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img
+            src="images/wordpress-demo.png"
+            alt="WordPress Business Website Demo"
+          />
+          <h3>WordPress Business Website Demo</h3>
+          <p>
+            A small business WordPress site with custom styling, contact
+            functionality, and a clean mobile layout.
+          </p>
+        </div>
       </div>
-      <div class="project-card">
-        <img src="project3.jpg" alt="Interactive Dashboard" />
-        <h3>Interactive Dashboard</h3>
-        <p>Analytics dashboard with dynamic charts built in React.</p>
+    </section>
+
+    <section id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">PHP</div>
+        <div class="skill">WordPress</div>
+        <div class="skill">MongoDB</div>
+        <div class="skill">Figma</div>
+        <div class="skill">Git</div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Skills Section -->
-  <section id="skills">
-    <h2 class="section-title">Skills</h2>
-    <div class="skills-grid">
-      <div class="skill">HTML</div>
-      <div class="skill">CSS</div>
-      <div class="skill">JavaScript</div>
-      <div class="skill">React</div>
-      <div class="skill">Node.js</div>
-      <div class="skill">MongoDB</div>
-      <div class="skill">Figma</div>
-      <div class="skill">Git</div>
-    </div>
-  </section>
+    <section id="contact">
+      <p>Need help improving your website or adding new features?</p>
+      <a
+        href="mailto:childswebdev@gmail.com?subject=Website%20Help&body=Hi%20Riley,"
+        class="email-button"
+        >Email Me</a
+      >
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <a href="mailto:childswebdev@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20Riley," class="email-button">Email Me</a>
-  </section>
+    <footer>
+      <p>&copy; 2026 Riley Childs | Web Developer</p>
+    </footer>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2026 Riley Childs | Made with ❤️ and snowflakes ❄️</p>
-  </footer>
-
-  <!-- Scroll to top on refresh -->
-  <script>
-    window.onbeforeunload = function () {
-      window.scrollTo(0, 0);
-    };
-  </script>
-
-</body>
+    <script>
+      window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+      };
+    </script>
+  </body>
 </html>
