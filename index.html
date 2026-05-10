@@ -3,140 +3,270 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Riley Childs | Web Developer</title>
+
+    <title>Riley Childs | Full-Stack Web Developer</title>
+
+    <meta
+      name="description"
+      content="Full-stack web developer specializing in React, Node.js, Express, and MongoDB applications."
+    />
+
     <link rel="stylesheet" href="styles.css" />
-    <link rel="preload" as="image" href="snowboard.jpg" />
+    <link rel="preload" as="image" href="images/Leurocarve.jpg" />
   </head>
+
   <body>
+    <!-- HERO -->
     <section class="hero">
       <div class="overlay"></div>
 
       <div class="hero-content">
         <h1>Riley Childs</h1>
-        <h2>Web Developer for Small Business Websites & Custom Web Apps</h2>
+
+        <h2>
+          Full-Stack Web Developer specializing in React, Node.js, Express, and
+          MongoDB applications.
+        </h2>
+
         <p>
-          I build WordPress sites, custom backend features, and full-stack web
-          apps for businesses that need practical, user-friendly web solutions.
+          I build practical business-focused web applications with clean user
+          interfaces, scalable backend systems, and real-world functionality.
         </p>
-        <p>
-          I help improve websites, add features like contact and booking
-          systems, and fix issues quickly.
-        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="cta-button">View Projects</a>
+
+          <!-- <a href="resume.pdf" class="secondary-button" target="_blank">
+            Download Resume
+          </a> -->
+
+          <a
+            href="https://github.com/roc2246"
+            class="secondary-button"
+            target="_blank"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/riley-childs-1a63283b7/"
+            class="secondary-button"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+        </div>
       </div>
 
       <nav class="hero-nav">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
+        <a href="#backend-experience">Backend</a>
+        <a href="#learning">Learning</a>
         <a href="#contact">Contact</a>
       </nav>
-
     </section>
 
+    <!-- ABOUT -->
     <section class="about" id="about">
       <div class="about-container">
         <img src="images/profile.jpg" alt="Riley snowboarding" />
+
         <div class="about-text">
           <h2 class="section-title">About Me</h2>
+
           <p>
-            I'm Riley, a web developer focused on building clean, practical
-            websites and web applications. My background in snowboarding and
-            instruction gives me a strong understanding of service-based
-            businesses, scheduling, and customer-facing tools.
+            I'm Riley, a full-stack web developer focused on building clean,
+            practical web applications and business tools.
+          </p>
+
+          <p>
+            My background as a snowboard instructor gave me firsthand
+            experience with scheduling systems, customer workflows, logistics,
+            and service-based business operations.
+          </p>
+
+          <p>
+            I now build web applications that solve practical real-world
+            problems using React, Node.js, Express, MongoDB, and modern
+            JavaScript tools.
           </p>
         </div>
       </div>
     </section>
 
+    <!-- PROJECTS -->
     <section id="projects">
       <h2 class="section-title">Projects</h2>
 
       <div class="projects">
+        <!-- PROJECT 1 -->
         <div class="project-card">
           <img src="images/project1.png" alt="Ski Lesson App" />
+
           <h3>Ski Lesson App</h3>
+
+          <div class="tech-stack">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>MongoDB</span>
+            <span>Vitest</span>
+          </div>
+
           <p>
-            A web app that helps ski and snowboard instructors manage lessons,
-            scheduling, and assignments more efficiently.
+            Full-stack scheduling platform designed for ski and snowboard
+            instructors to manage lessons, assignments, and student logistics.
           </p>
-          <br />
-          <a
-            class="project-link"
-            href="https://ski-lessons-7410677781cb.herokuapp.com/"
-            >Website</a
-          >
-          <br />
-          <a class="github-link" href="https://github.com/roc2246/ski-lessons"
-            >Github Repository</a
-          >
+
+          <ul class="feature-list">
+            <li>JWT authentication system</li>
+            <li>REST API architecture</li>
+            <li>Instructor lesson assignment workflows</li>
+            <li>MongoDB database integration</li>
+            <li>Responsive dashboard UI</li>
+            <li>Unit testing with Vitest</li>
+          </ul>
+
+          <div class="project-links">
+            <a
+              class="project-link"
+              href="https://ski-lessons-7410677781cb.herokuapp.com/"
+              target="_blank"
+            >
+              Live Site
+            </a>
+
+            <a
+              class="github-link"
+              href="https://github.com/roc2246/ski-lessons"
+              target="_blank"
+            >
+              GitHub Repository
+            </a>
+          </div>
         </div>
 
+        <!-- PROJECT 2 -->
         <div class="project-card">
           <img src="images/project2.png" alt="Rental Finder App" />
-          <h3>Rental Finder App</h3>
-          <p>
-            A tool that aggregates rental listings from multiple sources to help
-            users quickly find better housing options.
-          </p>
-          <br />
-          <a
-            class="project-link"
-            href="https://rental-finder-31396c6563dc.herokuapp.com/"
-            >Website</a
-          >
-          <br />
-          <a class="github-link" href="https://github.com/roc2246/rental-finder"
-            >Github Repository</a
-          >
-        </div>
 
-        <!-- <div class="project-card">
-          <img
-            src="images/wordpress-demo.png"
-            alt="WordPress Business Website Demo"
-          />
-          <h3>WordPress Business Website Demo</h3>
+          <h3>Rental Finder App</h3>
+
+          <div class="tech-stack">
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>MongoDB</span>
+            <span>Cron Jobs</span>
+            <span>Web Scraping</span>
+          </div>
+
           <p>
-            A small business WordPress site with custom styling, contact
-            functionality, and a clean mobile layout.
+            Rental aggregation platform that collects and organizes listings
+            from multiple housing sources.
           </p>
+
+          <ul class="feature-list">
+            <li>Automated rental aggregation system</li>
+            <li>Cron-based scheduled updates</li>
+            <li>Data normalization pipeline</li>
+            <li>Search and filtering functionality</li>
+            <li>Backend scraping utilities</li>
+            <li>Responsive user interface</li>
+          </ul>
+
+          <div class="project-links">
+            <a
+              class="project-link"
+              href="https://rental-finder-31396c6563dc.herokuapp.com/"
+              target="_blank"
+            >
+              Live Site
+            </a>
+
+            <a
+              class="github-link"
+              href="https://github.com/roc2246/rental-finder"
+              target="_blank"
+            >
+              GitHub Repository
+            </a>
+          </div>
         </div>
-      </div> -->
+      </div>
     </section>
 
+    <!-- SKILLS -->
     <section id="skills">
       <h2 class="section-title">Skills</h2>
+
       <div class="skills-grid">
         <div class="skill">HTML</div>
         <div class="skill">CSS</div>
         <div class="skill">JavaScript</div>
         <div class="skill">React</div>
         <div class="skill">Node.js</div>
-        <div class="skill">PHP</div>
-        <div class="skill">WordPress</div>
+        <div class="skill">Express</div>
         <div class="skill">MongoDB</div>
-        <div class="skill">Figma</div>
         <div class="skill">Git</div>
+        <div class="skill">Vitest</div>
+        <div class="skill">WordPress</div>
+        <div class="skill">PHP</div>
+        <div class="skill">Figma</div>
       </div>
     </section>
 
+    <!-- BACKEND -->
+    <section id="backend-experience">
+      <h2 class="section-title">Backend Experience</h2>
+
+      <div class="backend-grid">
+        <div class="backend-item">REST API Development</div>
+        <div class="backend-item">MongoDB Schema Design</div>
+        <div class="backend-item">JWT Authentication</div>
+        <div class="backend-item">Express Middleware</div>
+        <div class="backend-item">Server-Side Validation</div>
+        <div class="backend-item">Cron Jobs</div>
+        <div class="backend-item">Web Scraping</div>
+        <div class="backend-item">Vitest Unit Testing</div>
+        <div class="backend-item">Git Version Control</div>
+        <div class="backend-item">Deployment Workflows</div>
+      </div>
+    </section>
+
+    <!-- LEARNING -->
+    <section id="learning">
+      <h2 class="section-title">Currently Learning</h2>
+
+      <div class="skills-grid">
+        <div class="skill">TypeScript</div>
+        <div class="skill">Docker</div>
+        <div class="skill">PostgreSQL</div>
+        <div class="skill">CI/CD</div>
+        <div class="skill">AWS Fundamentals</div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
     <section id="contact">
-      <p>Need help improving your website or adding new features?</p>
+      <p>Need help building or improving your web application?</p>
+
       <a
         href="mailto:childswebdev@gmail.com?subject=Website%20Help&body=Hi%20Riley,"
         class="email-button"
-        >Email Me</a
       >
+        Email Me
+      </a>
     </section>
 
+    <!-- FOOTER -->
     <footer>
-      <p>&copy; 2026 Riley Childs | Web Developer</p>
+      <p>&copy; 2026 Riley Childs | Full-Stack Web Developer</p>
     </footer>
 
     <script>
-      window.onbeforeunload = function () {
-        window.scrollTo(0, 0);
-      };
+      window.onbeforeunload = () => window.scrollTo(0, 0);
     </script>
   </body>
 </html>
