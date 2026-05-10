@@ -238,6 +238,7 @@ section {
 }
 
 .email-button {
+  margin-top: 2rem;
   background: #c0c0c0;      /* silver button */
   color: #0d0d0d;           /* dark text */
   padding: 14px 36px;       /* click area */
